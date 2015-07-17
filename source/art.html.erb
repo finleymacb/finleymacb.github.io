@@ -1,29 +1,22 @@
 ---
 title: Finley's Portfolio Website
 ---
-<header>
-  <%= partial "/partials/header" %>
-</header>
+<section class="container">
+  <div class="grid-cell">
+    <h4>Design</h4>
+    <div class="icon"> <img src="/images/tartuffe-icon.jpg"> </div>
+    <p class="description">Work so far in design.  Includes posters, identity systems, and the like.  Tools: Adobe Photoshop, Adobe Illustrator.</p> <div class="seeall"><a href="/design.html">See All</a></div>
+  </div>
 
-<nav>
-  <%= partial "/partials/navigation" %>
-</nav>
+  <div class="grid-cell">
+    <h4>Illustration</h4>
+    <div class="icon"> <img src="/images/gator-icon.png"> </div>
+    <p class="description"> Recent illustration work.  Includes everything that I didn't put in design. Tools: Adobe Photoshop, Autodesk Sketchbook Pro, pencils.</p><div class="seeall"><a href="/drawing.html">See All</a></div>
+  </div>
 
-<section class="digital">
-  <h4>Design</h4>
-  <div class="icon"> <img src="/images/tartuffe-icon.jpg"> </div>
-  <p class="description">Work so far in design.  Includes posters, identity systems, and the like.  Tools: Adobe Photoshop, Adobe Illustrator.</p> <div class="seeall"><a href="/design.html">See All</a></div>
+  <div class="grid-cell">
+    <h4>Works in Progress</h4>
+    <div class="icon"> <img src="/images/wip-icon.png"> </div>
+    <p class="description"> This is all the stuff I'm not finished with, or stuff I'll never finish.  Tools: All of the aforementioned.</p><div class="seeall"><a href="/progress.html">See All</a>
+  </div>
 </section>
-
-<section class="illustration">
-  <h4>Illustration</h4>
-  <div class="icon"> <img src="/images/gator-icon.png"> </div>
-  <p class="description"> Recent illustration work.  Includes everything that I didn't put in design. Tools: Adobe Photoshop, Autodesk Sketchbook Pro, ye old pencil n' paper.</p><div class="seeall"><a href="/drawing.html">See All</a>
-</section>
-
-
-<footer class="primary-footer">
-  <%= partial"/partials/footer" %>
-</footer>
-
- <link href='http://fonts.googleapis.com/css?family=Amatic+SC|Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>

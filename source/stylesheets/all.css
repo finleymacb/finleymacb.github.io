@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  background-color: #FAFAF8;
+  background-color: #282826;
   color: #4F5357;
   line-height: 1.5;
   margin-left: 40px;
@@ -22,30 +22,22 @@ h2 {
   margin-left: 20px;
   font-family: 'Amatic SC', cursive;
   font-size: 45px;
-  color: #BF6567;
+  color: #3B6D74;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  color: #3B6D74;
+  font-size: 2em;
 }
 
 h4 {
   font-family: 'Amatic SC', cursive;
-  color: #BF6567;
+  color: #3B6D74;
   font-size: 30px;
   padding-left: 20px;
   margin-top: 15px;
   margin-bottom: 10px;
-}
-
-.digital {
-  border: 6px double #BF6567;
-  width: 300px;
-  margin-left: 250px;
-  float: left;
-}
-
-.illustration {
-  border: 6px double #BF6567;
-  width: 250px;
-  margin-right: 300px;
-  float: right;
 }
 
 p {
@@ -54,51 +46,87 @@ p {
   display: block;
 }
 
-.primary-footer {
-  margin: 35px;
-  color: #B2BDB3;
-  font-size: 14px;
-  padding-bottom: 35px;
-  padding-top: 35px;
-}
-
-.primary-footer small {
-  float: left;
-  font-weight: 400px;
-}
-
 a {
-  color: #DD959E;
+  color: #83C8D7;
 }
 
 a:hover {
-  color: #E7B5BB;
+  color: #C4F3F1;
 }
 
 .content {
-  border: 6px double #BF6567;
-  margin-left: 220px;
-  margin-right: 220px;
-  padding-left: 10px;
-  padding-left: 10px;
+  border: 6px double #3B6D74;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  background-color: #FCFCFC;
 }
 
 nav {
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  padding-top: 10px;
+  padding-bottom: 2%;
+  margin-bottom: 4%;
+  padding-top: 2%;
   text-align: center;
 }
 
 .seeall {
-  padding-left: 15px;
-  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-bottom: 4%;
 }
 
 .icon {
-  padding-left: 20px;
+  padding-left: 7%;
 }
 
 .design-images {
-  margin-left: 200px;
+  margin-left: 20%;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  margin: 2em 0 0 2em;
+  align-items: flex-start;
+}
+
+.icon {
+  width: 150px;
+}
+
+.grid-cell {
+  border: 6px double #3B6D74;
+  flex: 1;
+  margin: 2em 0 0 2em;
+  background-color: #FCFCFC;
+}
+
+.l--main {
+  flex: 1 0 auto;
+}
+
+.l--footer {
+  flex: 0 0 auto;
+  margin: 15%;
+  color: #B2BDB3;
+  font-size: 14px;
+  padding-bottom: 15%;
+  padding-top: 15%;
+  float: left;
+  font-weight: 400px;
+}
+
+.l--header {
+  flex: 0 0 auto;
+}
+
+.l--body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
