@@ -106,27 +106,20 @@ img {
   background-color: #FCFCFC;
 }
 
+.l--body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .l--main {
   flex: 1 0 auto;
 }
 
 .l--footer {
   flex: 0 0 auto;
-  margin: 15%;
-  color: #B2BDB3;
-  font-size: 14px;
-  padding-bottom: 15%;
-  padding-top: 15%;
-  float: left;
-  font-weight: 400px;
 }
 
 .l--header {
   flex: 0 0 auto;
-}
-
-.l--body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
