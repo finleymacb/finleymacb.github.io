@@ -7,14 +7,14 @@
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC|Merriweather:400,300italic,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   </head>
 
   <body class="l--body">
 
       <header class="l--header">
         <%= partial "/partials/header" %>
-        <nav>
+        <nav role="navigation">
           <%= partial "/partials/navigation" %>
         </nav>
       </header>
@@ -23,7 +23,11 @@
         <%= yield %>
       </div>
 
-
+      <!-- <div class-"l--sidebar">
+        <img src="/images/business-cards.jpg">
+        <p>beep boop ba beep boop boop</p>
+      </div>
+ -->
     <footer class="l--footer">
       <%= partial "/partials/footer" %>
     </footer>

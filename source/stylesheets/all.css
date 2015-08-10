@@ -1,38 +1,44 @@
 @charset "utf-8";
 
 body {
-  font-size: 16px;
+  font-size: 100%;
   background-color: #282826;
   color: #4F5357;
-  line-height: 1.5;
-  margin-left: 40px;
-  margin-right: 40px;
+  line-height: 1.5em;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
   font-size: 4.0em;
   color: #2A2A2A;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 1800;
-  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: .7em;
+  float: left;
+  margin-left: .5em;
+  margin-bottom: .7em;
 }
 
 h2 {
   margin-left: 20px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 45px;
   color: #3B6D74;
 }
 
 h3 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Raleway', sans-serif;
   color: #3B6D74;
   font-size: 2em;
 }
 
 h4 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Raleway', sans-serif;
   color: #3B6D74;
   font-size: 30px;
   padding-left: 20px;
@@ -43,19 +49,24 @@ h4 {
 p {
   margin-left: 20px;
   margin-right: 20px;
-  display: block;
 }
 
 a {
   color: #83C8D7;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 a:hover {
   color: #C4F3F1;
+  text-decoration: underline;
 }
 
 .content {
-  border: 6px double #3B6D74;
+  border: .4em double #FCFCFC;
+  margin-top: 1em;
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 5%;
@@ -65,11 +76,15 @@ a:hover {
   background-color: #FCFCFC;
 }
 
-nav {
-  padding-bottom: 2%;
-  margin-bottom: 4%;
-  padding-top: 2%;
+[role="navigation"] a {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background: #FF0000;
+  padding: 1.2em;
+  text-align: center;
+  margin-top: 1.5em;
+  float: right;
+  margin-right: .5em;
 }
 
 .seeall {
@@ -99,11 +114,29 @@ img {
   width: 150px;
 }
 
+/*.contact {
+  border: .4em double #3B6D74;
+  background-color: #FCFCFC;
+  margin-left: 20em;
+  margin-right: 20em;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}*/
+
+.footicons a img{
+  width: 30px;
+}
+
 .grid-cell {
-  border: 6px double #3B6D74;
+  border: .4em double #3B6D74;
   flex: 1;
   margin: 2em 0 0 2em;
   background-color: #FCFCFC;
+}
+
+.illustration {
+  margin-top: 4em;
 }
 
 .l--body {
@@ -118,6 +151,7 @@ img {
 
 .l--footer {
   flex: 0 0 auto;
+  color: #FCFCFC;
 }
 
 .l--header {
