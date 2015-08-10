@@ -150,11 +150,8 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.3.7)
   middleman-autoprefixer
-  middleman-blog (~> 3.5.3)
+  middleman-blog
   middleman-livereload (~> 3.3.0)
   middleman-syntax
   middleman-title
   pry
-
-BUNDLED WITH
-   1.10.5

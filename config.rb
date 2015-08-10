@@ -7,6 +7,9 @@ set :css_dir, 'stylesheets'
 set :images_dir, 'images'
 set :partials_dir, 'partials'
 
+page "*", layout: "layout"
+page "/source/*", layout: "blog_layout"
+
 ########################################################################
 # Blog
 ########################################################################
@@ -17,14 +20,10 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
   blog.sources = "source/:title.html"
-  blog.permalink = "source/{title}.html"
+  blog.permalink = "/{title}.html"
   blog.tag_template = "tag.html"
 
 end
-
-page "/feed.xml", layout: false
-
-page "*", layout: "layout"
 
 ########################################################################
 # Output

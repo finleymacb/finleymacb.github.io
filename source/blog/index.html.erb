@@ -1,0 +1,17 @@
+<% blog.articles.each do |article| %>
+  <dl>
+    <a href="<%= article.url %>">
+      <header>
+        <dt>
+          <%= article.title %>
+        </dt>
+        <time>
+          <%= article.date.strftime("%B %e, %Y") %>
+        </time>
+      </header>
+      <p>
+        <%= article.metadata[:page]["description"] %>
+      </p>
+    </a>
+  </dl>
+<% end %>
