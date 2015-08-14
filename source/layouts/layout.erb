@@ -6,7 +6,6 @@
   </head>
 
   <body class="l--body">
-
       <header class="l--header">
         <%= partial "/partials/header" %>
       </header>
@@ -15,6 +14,10 @@
         <div class="content">
           <%= yield %>
         </div>
+      </div>
+
+      <div class="sidebar">
+        <%=partial "/partials/sidebar" %>
       </div>
 
     <footer class="l--footer">

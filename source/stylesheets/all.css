@@ -2,8 +2,8 @@
 
 body {
   font-size: 100%;
-  background-color: #282826;
-  color: #4F5357;
+  background-color: #FDFDFC;
+  color: #153835;
   line-height: 1.5em;
   margin-left: 2.5em;
   margin-right: 2.5em;
@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-size: 4.0em;
-  color: #2A2A2A;
+  color: #59948f;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   max-width: 100%;
@@ -28,22 +28,22 @@ h2 {
   margin-left: 20px;
   font-family: 'Raleway', sans-serif;
   font-size: 45px;
-  color: #3B6D74;
+  color: #59948f;
 }
 
 h3 {
   font-family: 'Raleway', sans-serif;
-  color: #3B6D74;
+  color: #59948f;
   font-size: 2em;
 }
 
 h4 {
   font-family: 'Raleway', sans-serif;
-  color: #3B6D74;
+  color: #59948f;
   font-size: 30px;
   padding-left: 20px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
 }
 
 a {
-  color: #83C8D7;
+  color: #9BC8C4;
 }
 
 a:link {
@@ -60,37 +60,36 @@ a:link {
 }
 
 a:hover {
-  color: #C4F3F1;
-  text-decoration: underline;
+  color: #B8DCD9;
+  text-decoration: none;
 }
 
 .content {
-  border: .4em double #FCFCFC;
-  margin-top: 1em;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-top: 3em;
+  margin-left: 4em;
+  margin-right: 22em;
   margin-bottom: 5%;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2%;
-  background-color: #FCFCFC;
 }
 
 [role="navigation"] a {
   text-align: center;
+  font-size: 1.2em;
+  color: #e9e9f0;
   font-family: 'Raleway', sans-serif;
-  background: #FF0000;
+  background: #afcdcb;
   padding: 1.2em;
-  text-align: center;
   margin-top: 1.5em;
   float: right;
   margin-right: .5em;
 }
 
-.seeall {
+/*.seeall {
   padding-left: 5%;
   padding-bottom: 4%;
-}
+}*/
 
 .icon {
   padding-left: 7%;
@@ -128,12 +127,13 @@ img {
   width: 30px;
 }
 
-.grid-cell {
+/*.grid-cell {
   border: .4em double #3B6D74;
   flex: 1;
   margin: 2em 0 0 2em;
   background-color: #FCFCFC;
 }
+*/
 
 .illustration {
   margin-top: 4em;
@@ -151,9 +151,19 @@ img {
 
 .l--footer {
   flex: 0 0 auto;
-  color: #FCFCFC;
+  color: #59948f;
 }
 
 .l--header {
   flex: 0 0 auto;
+}
+
+.sidebar {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+  width: 240px;
+  margin-right: 3em;
+  margin-top: 2.5em;
 }
