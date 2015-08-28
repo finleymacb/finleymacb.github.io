@@ -4,7 +4,7 @@ date: 2015-08-13
 description: So, so many small things to fix.
 ---
 
-##August 13
+###August 13
 
 Well, thanks to the middleman server being weird, I had a while where I  was totally in the dark HTML-wise for a while.  Thanks to James, the issue’s fixed and hopefully I’ll remember how to reboot the server in the future.
 

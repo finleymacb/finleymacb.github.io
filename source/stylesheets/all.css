@@ -28,6 +28,7 @@ h2 {
   margin-left: 20px;
   font-family: 'Raleway', sans-serif;
   font-size: 45px;
+  font-style: none;
   color: #59948f;
 }
 
@@ -74,22 +75,22 @@ a:hover {
   padding-bottom: 2%;
 }
 
-[role="navigation"] a {
+nav a {
   text-align: center;
   font-size: 1.2em;
-  color: #e9e9f0;
+  color: #FDFDFC;
   font-family: 'Raleway', sans-serif;
-  background: #afcdcb;
+  background: #9BC8C4;
   padding: 1.2em;
   margin-top: 1.5em;
   float: right;
   margin-right: .5em;
 }
 
-/*.seeall {
-  padding-left: 5%;
-  padding-bottom: 4%;
-}*/
+nav a:hover {
+  background-color: #B8DCD9;
+  color: #FDFDFC;
+}
 
 .icon {
   padding-left: 7%;
@@ -113,27 +114,9 @@ img {
   width: 150px;
 }
 
-/*.contact {
-  border: .4em double #3B6D74;
-  background-color: #FCFCFC;
-  margin-left: 20em;
-  margin-right: 20em;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-}*/
-
 .footicons a img{
   width: 30px;
 }
-
-/*.grid-cell {
-  border: .4em double #3B6D74;
-  flex: 1;
-  margin: 2em 0 0 2em;
-  background-color: #FCFCFC;
-}
-*/
 
 .illustration {
   margin-top: 4em;
