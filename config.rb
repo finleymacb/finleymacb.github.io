@@ -10,6 +10,13 @@ set :partials_dir, 'partials'
 page "*", layout: "layout"
 page "/source/*", layout: "blog_layout"
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'gh-pages'
+  deploy.build_before = true
+end
+
+
 ########################################################################
 # Blog
 ########################################################################
