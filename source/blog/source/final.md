@@ -6,11 +6,11 @@ description: I have some tips.
 
 
 ###To The Future Interns
-Today was my last day as an intern at Eightbit Studios.  I got to present what I learned, which was both terrifying and satisfying.  Overall, the internship was an excellent learning experience for me and I’m glad I was able to take it.
+Today was my last day as an intern at Eight Bit Studios.  I got to present what I learned, which was both terrifying and satisfying.  Overall, the internship was an excellent learning experience for me and I’m glad I was able to take it.
 
-Ironically, or maybe not, the hardest part of the internship was trying to compile it all into a presentation, and now to compile it into one final writeup.  I learned such a ridiculous about of stuff, it’s impossible to say it all.  Partially because I can’t remember it all.  Since I already compiled my experience into a powerpoint, I thought, instead of looking back more, I’d direct this towards future Eightbit interns.
+Ironically, or maybe not, the hardest part of the internship was trying to compile it all into a presentation, and now to compile it into one final writeup.  I learned such a ridiculous about of stuff, it’s impossible to say it all.  Partially because I can’t remember it all.  Since I already compiled my experience into a powerpoint, I thought, instead of looking back more, I’d direct this towards future Eight Bit interns.
 
-Future interns of Eightbit, I’m going to give you a few facts, and tell you about these facts.  You can take them or leave them, but at least read them well.
+Future interns of Eight Bit, I’m going to give you a few facts, and tell you about these facts.  You can take them or leave them, but at least read them well.
 
 First off, perfection isn’t real.  You’ve probably heard something like this before, but it’s important to keep in mind and to apply to your own work.  Your work will absolutely never be perfect.  It may look perfect to one viewer, but not to another, and it will never look perfect to you.  Whether it’s perfect is irrelevant.  Instead of asking yourself if your thing is perfect, ask if it’s complete.  Is there still something Not Right?  Something leaving you dissatisfied?  Something you think needs fixing?  Have you asked for second opinions yet?  Keep going.
 
