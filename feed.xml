@@ -1,0 +1,171 @@
+<!doctype html>
+  <html>
+
+  <head>
+    <meta charset="utf-8" />
+<meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+<title>Finley's Portfolio Website</title>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+<!-- %= stylesheet_link_tag "normalize", "all" %-->
+<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/all.css">
+
+<script src="/javascripts/all.js" type="text/javascript"></script>
+<link href='http://fonts.googleapis.com/css?family=Raleway|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body class="l--body">
+      <header class="l--header">
+        <h1>
+  <a href="/">Nothing</a>
+</h1>
+<nav role="navigation">
+  <a href="blog/index.html">Blog</a>
+<a href="art.html">Portfolio</a>
+</nav>
+
+      </header>
+
+      <div class="l--main" role="main">
+        <div class="content">
+          <?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-08-27T19:00:00-05:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>To The Future Interns</title>
+    <link rel="alternate" href="http://blog.url.com/blog/final.html"/>
+    <id>http://blog.url.com/blog/final.html</id>
+    <published>2015-08-27T19:00:00-05:00</published>
+    <updated>2015-11-22T15:28:38-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="to-the-future-interns"&gt;To The Future Interns&lt;/h3&gt;
+&lt;p&gt;Today was my last day as an intern at Eightbit Studios.  I got to present what I learned, which was both terrifying and satisfying.  Overall, the internship was an excellent learning experience for me and I’m glad I was able to take it.&lt;/p&gt;
+
+&lt;p&gt;Ironically, or maybe not, the hardest part of the internship was trying to compile it all into a presentation, and now to compile it into one final writeup.  I learned such a ridiculous about of stuff, it’s impossible to say it all.  Partially because I can’t remember it all.  Since I already compiled my experience into a powerpoint, I thought, instead of looking back more, I’d direct this towards future Eightbit interns.&lt;/p&gt;
+
+&lt;p&gt;Future interns of Eightbit, I’m going to give you a few facts, and tell you about these facts.  You can take them or leave them, but at least read them well.&lt;/p&gt;
+
+&lt;p&gt;First off, perfection isn’t real.  You’ve probably heard something like this before, but it’s important to keep in mind and to apply to your own work.  Your work will absolutely never be perfect.  It may look perfect to one viewer, but not to another, and it will never look perfect to you.  Whether it’s perfect is irrelevant.  Instead of asking yourself if your thing is perfect, ask if it’s complete.  Is there still something Not Right?  Something leaving you dissatisfied?  Something you think needs fixing?  Have you asked for second opinions yet?  Keep going.&lt;/p&gt;
+
+&lt;p&gt;Second, plan ahead.  I nearly messed up my website big time because I didn’t know what I  wanted to do with it.  Planning can be boring and tedious and terrible, but it’s worth it in the long run.  You may not even do anything with your plans, but that doesn’t mean it was all for naught.  I spent a long time painstakingly planning out and wireframing every corner of my website and most of it was either axed or completely changed.  Just about none of it survived to the final iteration.  However, it put me on the right track, and got me organized.&lt;/p&gt;
+
+&lt;p&gt;And finally, don’t resist human interaction.  Other people will always be there, and if you’re a shy introvert like me or you just don’t have much patience, you’re going to want to resist.  You’re going to have to present to people someday, and you’re always going to have to deal with them, so you might as well get used to it— even better, you can get really good at it.  You can start small, with participating in dev meetings and showing your work to your mentor.&lt;/p&gt;
+
+&lt;p&gt;A few speaking tips: If you don’t know why you did something, don’t say you didn’t know.  Say you changed it, but don’t try to make an excuse you don’t have.  Also, speak slow.  Talking faster is where Um and Uh start coming in, and you might even start stuttering.  Avoid the embarrassment and slow down.  Finally, always know what you want to say.  The first time I was called on in a dev meeting, I wasn’t expecting it, so I floundered for the worst 10-15 seconds of my life.  It was terrible.  I’m not sure what I said, but I know I don’t want to relive it.  Try not to be caught off guard.&lt;/p&gt;
+
+&lt;p&gt;Stay hydrated at all costs and don’t forget to eat!  You’ll do fine.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>August 27</title>
+    <link rel="alternate" href="http://blog.url.com/blog/aug27.html"/>
+    <id>http://blog.url.com/blog/aug27.html</id>
+    <published>2015-08-26T19:00:00-05:00</published>
+    <updated>2015-11-22T15:28:38-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="august-27"&gt;August 27&lt;/h3&gt;
+&lt;p&gt;Aside from the 2.5-hour hole left by Quickstart, today was productive!  At least, opposed to yesterday.  I finally started working on my powerpoint, and while it’s a bit jumbled, it’s better than having nothing at all. Like I did yesterday.  I kind of wish I had an actual topic aside from INTERNSHIP, but I also think that that’s what everyone’s expecting and it’d be a little weird to not do it on my internship, even if it is technically lunch &amp;amp; learn.&lt;/p&gt;
+
+&lt;p&gt;I’m making the slides match my website in color scheme and font, but I think I’ll make custom slide templates when I get home.  It’ll make up for doing it in Google Slides instead of keynote.  this will be the prettiest presentation I’ve ever made.  I must stay loyal to the design part of the internship.&lt;/p&gt;
+
+&lt;p&gt;The only thing that’s really worrying me at this point is that my github page is still giving me a 404 when I try to go to my URL, and I’m too nervous to mess with terminal to push my stuff right now.  I’ll figure it out (meaning: ask someone) tomorrow.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>August 26</title>
+    <link rel="alternate" href="http://blog.url.com/blog/aug26.html"/>
+    <id>http://blog.url.com/blog/aug26.html</id>
+    <published>2015-08-25T19:00:00-05:00</published>
+    <updated>2015-11-22T15:28:38-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="august-26"&gt;August 26&lt;/h3&gt;
+&lt;p&gt;I spent most of the day trying to figure out what subject to do for my presentation, but my brain is too tired to hold on to one thing for more than a minute.&lt;/p&gt;
+
+&lt;p&gt;Aside from this internal struggle, I went to my last dev meeting and tried to talk about my work.  I mentioned that I hadn’t been able to find a way to make my nav responsive to hovering.  Afterwards, I tried a thing I’d seen on codepen.  It didn’t work, probably because I only did CSS.  Eventually, as I continued to get more frustrated, I  gave up and tried the nav a:hover thing I swear I’d tried originally.  And it worked.  Maybe that wasn’t what I tried the first time.  Maybe I accidentally omitted something.  I don’t care, at this point— my nav is finally done!&lt;/p&gt;
+
+&lt;p&gt;Also, I may have decided on a focus for my presentation.  Right now, I’m thinking I’ll dissect my internship week by week.  I don’t really have time to think up something else.  I’ll make it work.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>August 25</title>
+    <link rel="alternate" href="http://blog.url.com/blog/aug25.html"/>
+    <id>http://blog.url.com/blog/aug25.html</id>
+    <published>2015-08-24T19:00:00-05:00</published>
+    <updated>2015-11-22T15:28:38-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="august-25"&gt;August 25&lt;/h3&gt;
+&lt;p&gt;Today was a short day.  A really short day.  I mostly just fixed things— the sidebar link works on the blog pages now.  I also added the most recent piece of art, technically, that I had done.  There was a bit of weirdness with the link not working, but I fixed that.  i just have to remember to keep the #recent tag in div id, not div class, which would just send the link to the portfolio.&lt;/p&gt;
+
+&lt;p&gt;Still haven’t decided the topic for Friday, but I’m getting there.  Apparently, though, this computer doesn’t have keynote, which throws a wrench in things.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>August 24</title>
+    <link rel="alternate" href="http://blog.url.com/blog/aug24.html"/>
+    <id>http://blog.url.com/blog/aug24.html</id>
+    <published>2015-08-23T19:00:00-05:00</published>
+    <updated>2015-11-22T15:28:38-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="august-24"&gt;August 24&lt;/h3&gt;
+&lt;p&gt;I have returned to Eightbit after a week in Canada, and now I’m facing the presentation I have to make on Friday.&lt;/p&gt;
+
+&lt;p&gt;Alejandra provided me with two really good sources, one being an entire website, that I read thoroughly.  I’m a bit of a wreck at public speaking, so they’re super helpful.  My problem is that I usually tend to talk fast, but I also trip over my words constantly, even when I’m not nervous, so me trying to present is generally just an awkward experience for everything.  I  also need to pick a subject, but I think I’m starting to latch onto a good idea.&lt;/p&gt;
+
+&lt;p&gt;What I’ve taken away from the reading is that I should prioritize speaking slower and practicing what I want to say.  I’ve gotten into the habit of winging presentations based on the powerpoints I make, which, while feasible, doesn’t look good.  I got through it on principle of my only solo presentations being in my German class, where there were far worse presentations that made mine look like I’d poured my soul into them. Obviously, that’s not going to fly here, or at all in the future.  I’m considering having notes, but I’ve also had horrible moments in mock trials where I suddenly can’t read my handwriting when I’m supposed to be performing a cross-examination, so maybe it’s not the best idea.&lt;/p&gt;
+
+&lt;p&gt;On a completely different note, the website is looking very finished, except for one fatal error: the sidebar link only works on the index and portfolio pages.  I have no idea how to fix this.  I do think I know why, though— it redirects to .blog/art.html#recent, which doesn’t exist, instead of /art.html#recent.  Maybe tomorrow I’ll look for ways to link to a part of a page without using #.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>August 13</title>
+    <link rel="alternate" href="http://blog.url.com/blog/aug13.html"/>
+    <id>http://blog.url.com/blog/aug13.html</id>
+    <published>2015-08-12T19:00:00-05:00</published>
+    <updated>2015-11-22T15:28:38-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="august-13"&gt;August 13&lt;/h3&gt;
+
+&lt;p&gt;Well, thanks to the middleman server being weird, I had a while where I  was totally in the dark HTML-wise for a while.  Thanks to James, the issue’s fixed and hopefully I’ll remember how to reboot the server in the future.&lt;/p&gt;
+
+&lt;p&gt;Aside from that, most of the changes I made were small changes.  I worked more on the color scheme, mainly with the background and link colors.  I’m still a little iffy on the link colors, but I think I want to get second opinions first.  Since I am forever indecisive with my footer, I replaced the icons with plain text.  Again.  Also, I finally decided to remove the archive page, forever.  My nav looks a little weird with only two tabs now, but I might just increase the margin and center them a little more, I don’t know yet.&lt;/p&gt;
+
+&lt;p&gt;I also finally brought some recent art files from my desktop and got the sidebar up to date.  Right now, the sidebar is definitely looking how I want it to look, and working how I want it to work (the image itself is a link to its place in the art page).  Currently, instead of a description, I just have the date it was added, because I think it’s redundant if I’m going to have the image link to the description, and I don’t want to have too much clutter.  Okay, I just discovered that the link only works on the index page, so that’s something else I have to fix.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <a href="art.html#recent"><img src="images/glowskink.png"></a>
+<h4>Recent Art</h4>
+<p>August 13, 2015</p>
+
+      </div>
+
+    <footer class="l--footer">
+      &copy;Finley MacDonald-Bora <div class="footicons"><a href="mailto:finleymacb@gmail.com?subject=Fight%20Club">Email</a> | <a href="https://www.behance.net/finleymacb">Behance</a> | <a href="http://celestialcoelacanth.tumblr.com/">Tumblr</a></div>
+    </footer>
