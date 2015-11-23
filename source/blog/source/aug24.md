@@ -5,7 +5,7 @@ description: I have returned.
 ---
 
 ###August 24
-I have returned to Eightbit after a week in Canada, and now I’m facing the presentation I have to make on Friday.
+I have returned to Eight Bit after a week in Canada, and now I’m facing the presentation I have to make on Friday.
 
 Alejandra provided me with two really good sources, one being an entire website, that I read thoroughly.  I’m a bit of a wreck at public speaking, so they’re super helpful.  My problem is that I usually tend to talk fast, but I also trip over my words constantly, even when I’m not nervous, so me trying to present is generally just an awkward experience for everything.  I  also need to pick a subject, but I think I’m starting to latch onto a good idea.
 
