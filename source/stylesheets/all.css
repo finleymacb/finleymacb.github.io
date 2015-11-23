@@ -1,17 +1,27 @@
 @charset "utf-8";
 
 body {
+<<<<<<< HEAD
   font-size: 100%;
   background-color: #FDFDFC;
   color: #153835;
   line-height: 1.5em;
   margin-left: 2.5em;
   margin-right: 2.5em;
+=======
+  font-size: 16px;
+  background-color: #282826;
+  color: #4F5357;
+  line-height: 1.5;
+  margin-left: 40px;
+  margin-right: 40px;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
   font-family: 'Merriweather', serif;
 }
 
 h1 {
   font-size: 4.0em;
+<<<<<<< HEAD
   color: #59948f;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -22,10 +32,17 @@ h1 {
   float: left;
   margin-left: .5em;
   margin-bottom: .7em;
+=======
+  color: #2A2A2A;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 1800;
+  margin-bottom: 20px;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
 }
 
 h2 {
   margin-left: 20px;
+<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
   font-size: 45px;
   font-style: none;
@@ -35,21 +52,41 @@ h2 {
 h3 {
   font-family: 'Raleway', sans-serif;
   color: #59948f;
+=======
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
+  color: #3B6D74;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
+  color: #3B6D74;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
   font-size: 2em;
 }
 
 h4 {
+<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
   color: #59948f;
   font-size: 30px;
   padding-left: 20px;
   margin-top: 1em;
   margin-bottom: 1em;
+=======
+  font-family: 'Amatic SC', cursive;
+  color: #3B6D74;
+  font-size: 30px;
+  padding-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
 }
 
 p {
   margin-left: 20px;
   margin-right: 20px;
+<<<<<<< HEAD
 }
 
 a {
@@ -69,10 +106,28 @@ a:hover {
   margin-top: 3em;
   margin-left: 4em;
   margin-right: 22em;
+=======
+  display: block;
+}
+
+a {
+  color: #83C8D7;
+}
+
+a:hover {
+  color: #C4F3F1;
+}
+
+.content {
+  border: 6px double #3B6D74;
+  margin-left: 15%;
+  margin-right: 15%;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
   margin-bottom: 5%;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2%;
+<<<<<<< HEAD
 }
 
 nav a {
@@ -90,6 +145,21 @@ nav a {
 nav a:hover {
   background-color: #B8DCD9;
   color: #FDFDFC;
+=======
+  background-color: #FCFCFC;
+}
+
+nav {
+  padding-bottom: 2%;
+  margin-bottom: 4%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.seeall {
+  padding-left: 5%;
+  padding-bottom: 4%;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
 }
 
 .icon {
@@ -114,6 +184,7 @@ img {
   width: 150px;
 }
 
+<<<<<<< HEAD
 .footicons a img{
   width: 30px;
 }
@@ -126,6 +197,13 @@ img {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+=======
+.grid-cell {
+  border: 6px double #3B6D74;
+  flex: 1;
+  margin: 2em 0 0 2em;
+  background-color: #FCFCFC;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
 }
 
 .l--main {
@@ -134,13 +212,24 @@ img {
 
 .l--footer {
   flex: 0 0 auto;
+<<<<<<< HEAD
   color: #59948f;
+=======
+  margin: 15%;
+  color: #B2BDB3;
+  font-size: 14px;
+  padding-bottom: 15%;
+  padding-top: 15%;
+  float: left;
+  font-weight: 400px;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
 }
 
 .l--header {
   flex: 0 0 auto;
 }
 
+<<<<<<< HEAD
 .sidebar {
   position: absolute;
   right: 0;
@@ -149,4 +238,10 @@ img {
   width: 240px;
   margin-right: 3em;
   margin-top: 2.5em;
+=======
+.l--body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+>>>>>>> c2a1fe96a893e375fa51e82228110cf5a14196a0
 }
